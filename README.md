@@ -1,7 +1,7 @@
 # Instalación de Arch vía UEFI
 
 ## Establecer teclado:
-Español _latinoamerica_
+Español _latinoamérica_
 
 ```~# loadkeys la-latin1 ```
 
@@ -40,4 +40,20 @@ CTRL + C para interrumpir
 ## Establecer zona horaria NTP
 
 ```~# timedatectl set-ntp true```
+
+Para corroborar:
+
+```~# timedatectl status```
+
+El output debería ser así:
+
+``` 
+        Local time:         (Fecha actual) (Minutos) UTC
+    Universal time: (       (Igul a lo anterior en fecha y minutos) UTC
+        RTC time:           (Igual a lo anterior)
+        Time zone:          UTC (UTC,+0000)
+System clock synchronized:  yes
+        NTP service:        active
+        RTC in local TZ:    no
+```
 
