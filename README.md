@@ -57,3 +57,10 @@ System clock synchronized:  yes
         RTC in local TZ:    no
 ```
 
+## Crear particiones
+### Vamos a hacerlo con 'fdisk'
+
+Para listar las particiones:
+
+```~# fdisk -l ```
+
