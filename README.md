@@ -19,7 +19,9 @@ Con solo enchufar el cable debe funcionar.
 
 ### Wifi
 
-``` agregar comandos para el wifi```
+```~# ip link```
+
+Vemos el que empieza con 
 [docs](https://wiki.archlinux.org/index.php/Network_configuration/Wireless)
 
 **Comprobar si tenemos internet: **
